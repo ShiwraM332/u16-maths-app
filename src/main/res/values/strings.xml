@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MobileMathsApplication</string>
+    <string name="menu_btn_start">START</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="hard">HARD</string>
+    <string name="medium">MEDIUM</string>
+    <string name="score">Score:</string>
+    <string name="question">Question:</string>
+    <string name="time">Time: </string>
+    <string name="display_question">Question</string>
+    <string name="enter_answer_here">Enter answer here</string>
+    <string name="enter">Enter</string>
+
+</resources>

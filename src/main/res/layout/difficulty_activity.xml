@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DifficultyScene"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="@string/difficulty"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/yellow"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <!-- Difficulties : Easy, MEDIUM & hard -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/easy_btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="@string/easy"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:gravity=""
+        android:paddingStart="20dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="@color/yellow"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/medium_btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="@string/medium"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity=""
+        android:paddingStart="20dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="@color/yellow"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/hard_btn"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="@string/hard"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity=""
+        android:paddingStart="20dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="@color/yellow"
+        tools:ignore="RtlSymmetry" />
+
+</LinearLayout>

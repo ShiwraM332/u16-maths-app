@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuScene"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/image_for_menu"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_btn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/menu_btn_start"
+        android:textSize="65sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@color/yellow"/>
+
+</LinearLayout>
